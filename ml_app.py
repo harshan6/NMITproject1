@@ -13,7 +13,7 @@ def predict(Buying,Maint,Doors,Persons,Lug_boot,Safety):
     safety=1
   elif Safety=='high':
     safety=2
-    elif Safety=='low':
+   elif Safety=='low':
       safety=3
 df=pd.DataFrame([[Buying,Maint,Doors,Persons,Lug_boot,Safety]],
   columns=['Buying','Maint','Doors','Persons','Lug_boot','Safety'])
