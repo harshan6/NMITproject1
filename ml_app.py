@@ -21,7 +21,7 @@ prediction=model.predict([[Buying,Maint,Doors,Persons,Lug_boot,Safety]])
 return prediction
 
 st.title("Harsha's Car Evaluation Classification")
-st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fprogramming&psig=AOvVaw2PVQmQ4EHcEjsVOI9XAHHU&ust=1713420172045000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCus9fJyIUDFQAAAAAdAAAAABAE""")
+st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fcoding&psig=AOvVaw2OrlSDmE9H_3c6q59gpOKX&ust=1713422863560000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjzidzTyIUDFQAAAAAdAAAAABAE""")
 st.header("Enter the Information of the car")
 st.text("vhigh=1 high=2 med=3 low=4")
 Buying =st.number_input('buying',min_value=1,max_value=4,value=1)
