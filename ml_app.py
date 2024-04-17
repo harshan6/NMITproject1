@@ -18,7 +18,7 @@ def predict(Buying,Maint,Doors,Persons,Lug_boot,Safety):
 df=pd.DataFrame([[Buying,Maint,Doors,Persons,Lug_boot,Safety]],
   columns=['Buying','Maint','Doors','Persons','Lug_boot','Safety'])
 prediction=model.predict([[Buying,Maint,Doors,Persons,Lug_boot,Safety]])
-return prediction
+  return prediction
 
 st.title("Harsha's Car Evaluation Classification")
 st.image("""https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fcoding&psig=AOvVaw2OrlSDmE9H_3c6q59gpOKX&ust=1713422863560000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjzidzTyIUDFQAAAAAdAAAAABAE""")
